@@ -1,0 +1,21 @@
+{
+  "name": "js-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha algorithms/**/*.spec.js",
+    "benchmark": "node benchmark",
+    "lint": "eslint **.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "eslint": "^4.6.1",
+    "eslint-config-prettier": "^2.4.0",
+    "eslint-plugin-prettier": "^2.2.0",
+    "mocha": "^3.5.0",
+    "prettier": "^1.6.1"
+  }
+}
