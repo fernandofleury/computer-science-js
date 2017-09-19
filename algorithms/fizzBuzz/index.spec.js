@@ -1,5 +1,5 @@
 const assert = require('assert');
-const fizzBuzz = require('./fizzBuzz');
+const fizzBuzz = require('./index');
 
 describe('fizzBuzz', () => {
   describe('forLoop', () => {
