@@ -1,3 +1,4 @@
+// O(n) linear
 const harmlessRansomNote = (note, magazine) => {
   const magazineHash = magazine.split(' ').reduce((hash, word) => {
     hash[word] = hash[word] ? hash[word] + 1 : 1;
