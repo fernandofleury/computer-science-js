@@ -12,7 +12,7 @@ const reverse = str => {
   );
 };
 
-// O(log n) logarithm
+// O(n) linear
 const KISS = str => {
   const normalizedStr = normalizeStr(str);
   const len = Math.floor(normalizedStr.length / 2);
