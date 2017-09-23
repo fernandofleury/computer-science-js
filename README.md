@@ -9,5 +9,5 @@ Application of JavaScript Algorithms/Data Structures with proper spec/benchmark 
 
 ## Algorithms
 - [fizzBuzz](algorithms/fizzBuzz/)
-- [harmlessRansomNote](algorithms/harmlessRansomNote/)
+- [ransomNote](algorithms/ransomNote/)
 - [isPalindrome](algorithms/isPalindrome/)

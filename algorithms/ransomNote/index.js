@@ -1,5 +1,5 @@
 // O(n) linear
-const harmlessRansomNote = (note, magazine) => {
+const reduceEvery = (note, magazine) => {
   const magazineHash = magazine.split(' ').reduce((hash, word) => {
     hash[word] = hash[word] ? hash[word] + 1 : 1;
     return hash;
@@ -8,4 +8,6 @@ const harmlessRansomNote = (note, magazine) => {
   return note.split(' ').every(word => magazineHash[word]--);
 };
 
-module.exports = harmlessRansomNote;
+module.exports = {
+  reduceEvery
+};
