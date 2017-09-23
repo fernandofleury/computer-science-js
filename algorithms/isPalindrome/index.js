@@ -13,7 +13,7 @@ const reverse = str => {
 };
 
 // O(n) linear
-const KISS = str => {
+const halfLoop = str => {
   const normalizedStr = normalizeStr(str);
   const len = Math.floor(normalizedStr.length / 2);
   for (let i = 0; i < len; i++) {
@@ -26,5 +26,5 @@ const KISS = str => {
 
 module.exports = {
   reverse,
-  KISS
+  halfLoop
 };

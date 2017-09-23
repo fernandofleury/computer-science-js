@@ -13,13 +13,13 @@ describe('isPalindrome', () => {
     });
   });
 
-  describe('KISS', () => {
+  describe('halfLoop', () => {
     it('should return true is the string is a palindrome', () => {
-      assert.ok(isPalindrome.KISS(palindrome));
+      assert.ok(isPalindrome.halfLoop(palindrome));
     });
 
     it('should return false is the string is not a palindrome', () => {
-      assert.equal(isPalindrome.KISS('not a palindrome'), false);
+      assert.equal(isPalindrome.halfLoop('not a palindrome'), false);
     });
   });
 });

@@ -10,8 +10,8 @@ module.exports = {
       .add('isPalindrome#reverse', function() {
         isPalindrome.reverse(str);
       })
-      .add('isPalindrome#KISS', function() {
-        isPalindrome.KISS(str);
+      .add('isPalindrome#halfLoop', function() {
+        isPalindrome.halfLoop(str);
       })
       .on('cycle', function(event) {
         console.log(String(event.target));
