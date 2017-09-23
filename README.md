@@ -11,3 +11,4 @@ Application of JavaScript Algorithms/Data Structures with proper spec/benchmark 
 - [fizzBuzz](algorithms/fizzBuzz/)
 - [ransomNote](algorithms/ransomNote/)
 - [isPalindrome](algorithms/isPalindrome/)
+- [caesarChiper](algorithms/caesarChiper/)
