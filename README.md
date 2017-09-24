@@ -12,3 +12,4 @@ Application of JavaScript Algorithms/Data Structures with proper spec/benchmark 
 - [ransomNote](algorithms/ransomNote/)
 - [isPalindrome](algorithms/isPalindrome/)
 - [caesarChiper](algorithms/caesarChiper/)
+- [reverseWords](algorithms/reverseWords/)
