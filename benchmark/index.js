@@ -1,9 +1,6 @@
-const isPalindrome = require('../algorithms/isPalindrome/benchmark');
-const caesarChiper = require('../algorithms/caesarChiper/benchmark');
-const reverseWords = require('../algorithms/reverseWords/benchmark');
-const reverseArrayInPlace = require('../algorithms/reverseArrayInPlace/benchmark');
+const getBenchmark = file => require(`../algorithms/${file}/benchmark`);
 
-isPalindrome.benchmark();
-caesarChiper.benchmark();
-reverseWords.benchmark();
-reverseArrayInPlace.benchmark();
+getBenchmark('isPalindrome').run();
+getBenchmark('caesarChiper').run();
+getBenchmark('reverseWords').run();
+getBenchmark('reverseArrayInPlace').run();
