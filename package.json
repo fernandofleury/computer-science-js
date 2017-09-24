@@ -1,15 +1,16 @@
 {
   "name": "js-algorithms",
   "version": "1.0.0",
-  "description": "",
+  "description": "Application of JavaScript Algorithms/Data Structures with proper spec/benchmark of variations.",
   "main": "index.js",
+  "repository": "git@github.com:fernandofleury/js-structures.git",
   "scripts": {
     "test": "mocha algorithms/**/*.spec.js",
     "benchmark": "node benchmark",
     "lint": "eslint **.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Fernando Fleury",
+  "license": "MIT",
   "dependencies": {
     "benchmark": "^2.1.4",
     "eslint": "^4.6.1",
