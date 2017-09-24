@@ -13,3 +13,4 @@ Application of JavaScript Algorithms/Data Structures with proper spec/benchmark 
 - [isPalindrome](algorithms/isPalindrome/)
 - [caesarChiper](algorithms/caesarChiper/)
 - [reverseWords](algorithms/reverseWords/)
+- [reverseArrayInPlace](algorithms/reverseArrayInPlace/)
