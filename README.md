@@ -14,6 +14,7 @@ Application of JavaScript Algorithms/Data Structures with proper spec/benchmark 
 - [caesarChiper](algorithms/caesarChiper/)
 - [reverseWords](algorithms/reverseWords/)
 - [reverseArrayInPlace](algorithms/reverseArrayInPlace/)
+- [meanMedianMode](algorithms/meanMedianMode/)
 
 ### Benchmark samples
 ```
