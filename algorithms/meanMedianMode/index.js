@@ -1,22 +1,27 @@
+const sortArray = arr => arr.sort((a, b) => a - b);
+
 // O(n) linear
-const meanMedianMode = arr => {
-  const sortedArr = arr.sort((a, b) => a - b);
-  return {
-    mean: mean(sortedArr),
-    median: median(sortedArr),
-    mode: mode(sortedArr)
-  };
+const mean = arr => {
+  const sortedArr = sortArray(arr);
+
+  return arr.reduce((acc, num) => acc + num, 0) / arr.length;
 };
 
-const mean = arr => arr.reduce((acc, num) => acc + num, 0) / arr.length;
+// O(n) linear
 const median = arr => {
-  const length = arr.length;
+  const sortedArr = sortArray(arr);
+  const length = sortedArr.length;
   const half = Math.floor(length / 2);
 
-  return length % 2 ? arr[half] : (arr[half - 1] + arr[half]) / 2;
+  return length % 2
+    ? sortedArr[half]
+    : (sortedArr[half - 1] + sortedArr[half]) / 2;
 };
+
+// O(n) linear
 const mode = arr => {
-  const map = arr.reduce((map, num) => {
+  const sortedArr = sortArray(arr);
+  const map = sortedArr.reduce((map, num) => {
     map[num] = map[num] + 1 || 1;
     return map;
   }, {});
