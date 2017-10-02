@@ -6,3 +6,4 @@ getBenchmark('caesarChiper').run();
 getBenchmark('reverseWords').run();
 getBenchmark('reverseArrayInPlace').run();
 getBenchmark('twoSums').run();
+getBenchmark('fibonacci').run();

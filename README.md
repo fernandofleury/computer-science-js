@@ -48,4 +48,8 @@ twoSums#hashTable x 510,519 ops/sec ±0.99% (92 runs sampled)
 twoSums#arrIndexOf x 1,451,189 ops/sec ±7.72% (83 runs sampled)
 twoSums#strIndexOf x 381,697 ops/sec ±7.15% (72 runs sampled)
 Fastest is twoSums#arrIndexOf
+
+fibonacci#forLoop x 4,064,113 ops/sec ±0.61% (90 runs sampled)
+fibonacci#recursive x 532,014 ops/sec ±0.79% (90 runs sampled)
+Fastest is fibonacci#forLoop
 ```
