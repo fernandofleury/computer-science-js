@@ -16,6 +16,7 @@ Application of JavaScript Algorithms/Data Structures with proper spec/benchmark 
 - [reverseArrayInPlace](algorithms/reverseArrayInPlace/)
 - [meanMedianMode](algorithms/meanMedianMode/)
 - [twoSums](algorithms/twoSums/)
+- [binarySearch](algorithms/binarySearch/)
 
 ### Benchmark samples
 ```
