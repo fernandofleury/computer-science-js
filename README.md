@@ -17,6 +17,7 @@ Application of JavaScript Algorithms/Data Structures with proper spec/benchmark 
 - [meanMedianMode](algorithms/meanMedianMode/)
 - [twoSums](algorithms/twoSums/)
 - [binarySearch](algorithms/binarySearch/)
+- [bubbleSort](algorithms/bubbleSort/)
 
 ### Benchmark samples
 ```
