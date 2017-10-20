@@ -1,5 +1,5 @@
-# JS Structures
-Application of JavaScript Algorithms/Data Structures with proper spec/benchmark of variations.
+# Computer Science in JavaScript
+Computer Science studies in JavaScript with proper specs/benchmarking.
 
 ## Executing the specs
 `npm test`
