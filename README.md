@@ -18,6 +18,7 @@ Application of JavaScript Algorithms/Data Structures with proper spec/benchmark 
 - [twoSums](algorithms/twoSums/)
 - [binarySearch](algorithms/binarySearch/)
 - [bubbleSort](algorithms/bubbleSort/)
+- [mergeSort](algorithms/mergeSort/)
 
 ### Benchmark samples
 ```
