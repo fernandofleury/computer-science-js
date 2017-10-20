@@ -1,3 +1,4 @@
+// O(n^2) (worst case) O(n) (best case)
 const bubbleSort = arr => {
   let placeholder;
 
