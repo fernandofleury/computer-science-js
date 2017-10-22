@@ -20,6 +20,7 @@ Computer Science studies in JavaScript with proper specs/benchmarking.
 - [bubbleSort](algorithms/bubbleSort/)
 - [mergeSort](algorithms/mergeSort/)
 - [maxStockProfit](algorithms/maxStockProfit/)
+- [quickSort](algorithms/quickSort/)
 
 ### Benchmark samples
 ```
