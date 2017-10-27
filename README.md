@@ -22,6 +22,8 @@ Computer Science studies in JavaScript with proper specs/benchmarking.
 - [maxStockProfit](algorithms/maxStockProfit/)
 - [quickSort](algorithms/quickSort/)
 - [insertionSort](algorithms/insertionSort/)
+- [insertionSort](algorithms/insertionSort/)
+- [selectionSort](algorithms/selectionSort/)
 
 ### Benchmark samples
 ```
