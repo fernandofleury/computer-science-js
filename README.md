@@ -25,6 +25,9 @@ Computer Science studies in JavaScript with proper specs/benchmarking.
 - [insertionSort](algorithms/insertionSort/)
 - [selectionSort](algorithms/selectionSort/)
 
+## Structures
+- [linkedList](structures/linkedList/)
+
 ### Benchmark samples
 ```
 fizzBuzz#ternary x 4,558,955 ops/sec ±2.61% (87 runs sampled)
