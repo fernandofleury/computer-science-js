@@ -28,6 +28,7 @@ Computer Science studies in JavaScript with proper specs/benchmarking.
 ## Structures
 - [linkedList](structures/linkedList/)
 - [stack](structures/stack/)
+- [queue](structures/queue/)
 
 ### Benchmark samples
 ```
