@@ -30,6 +30,7 @@ Computer Science studies in JavaScript with proper specs/benchmarking.
 - [stack](structures/stack/)
 - [queue](structures/queue/)
 - [set](structures/set/)
+- [map](structures/map/)
 
 ### Benchmark samples
 ```
